@@ -1,6 +1,6 @@
 import ctypes
 import threading
-from playsound import playsound
+from needs.playsound import playsound
 user32 = ctypes.windll.user32
 appcmd = 0x319
 up = 0x0a0000
